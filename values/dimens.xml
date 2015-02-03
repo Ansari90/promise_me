@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <dimen name="mainGap">75dp</dimen>
+    <dimen name="newGapText">20dp</dimen>
+    <dimen name="newGapButton">15dp</dimen>
+    <dimen name="promiseGap">15dp</dimen>
+    <dimen name="promiseTrashGap">10dp</dimen>
+    <dimen name="listGap">25dp</dimen>
+    <dimen name="rowGap">10dp</dimen>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customWidgets="http://schemas.android.com/apk/res/aaa.promise_me"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" 
+    android:background="@color/beige" >
+
+    <TextView
+        android:id="@+id/enterPromise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/newGapText"
+        android:text="@string/whatPromise"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/promiseText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enterPromise"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/newGapText"
+        android:inputType="textMultiLine"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <aaa.promise_me.customWidgets.CustomButton
+        android:id="@+id/createPromise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/promiseText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/newGapButton"
+        android:onClick="createPromise"
+        customWidgets:buttonString="@string/promiseMe" />
+
+</RelativeLayout>

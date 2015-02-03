@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Promise Me</string>
+    <string name="dbName">PromiseMe.db</string>
+    <string name="version">1</string>
+    <string name="nameSpace">http://schemas.android.com/apk/res/aaa.promise_me</string>
+    <string name="attr_buttonString">buttonString</string>
+    
+    <string name="newPromise">New Promise</string>
+    <string name="answerPromises">Answer Promises</string>
+    <string name="promiseList">Promise List</string>
+    
+    <string name="promiseQuestion">Did you keep it?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="unanswered">Unanswered</string>
+    
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="current">Current</string>
+    <string name="deletePromise">Delete</string>
+    
+    <string name="whatPromise">What do you promise?</string>
+    <string name="promiseMe">Promise Me!</string>
+
+    <string name="currentPromises">Your Current Promises:</string>    
+    <string name="selectPromise">Select a promise to view data on it!</string>    
+    <string name="noResponses">No Answers to this promise yet!</string>
+    
+    <string name="noPromises">No active promises!</string>    
+</resources>

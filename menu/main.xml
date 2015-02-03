@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="aaa.promise_me.MainActivity" >
+
+    <item
+        android:id="@+id/makeNewPromise"
+        android:orderInCategory="100"
+        android:title="@string/newPromise"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/answerPromise"
+        android:orderInCategory="150"
+        android:title="@string/answerPromises"
+        app:showAsAction="never"/>
+        
+    <item
+        android:id="@+id/listPromises"
+        android:orderInCategory="200"
+        android:title="@string/promiseList"
+        app:showAsAction="never"/>
+    
+
+</menu>

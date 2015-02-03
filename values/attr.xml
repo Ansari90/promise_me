@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:customWidgets="http://schemas.android.com/apk/res/aaa.promise_me">
+    <attr name="buttonString" format="string"></attr>
+</resources>
